@@ -11,7 +11,7 @@
 __author__ = 'talus'
 
 
-from Gameglobal import GameException
+from gameGlobal import GameException
 from config import ErrorCodeConf
 
 """
