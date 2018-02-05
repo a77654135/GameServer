@@ -12,7 +12,7 @@ __author__ = 'talus'
 
 import tornado.web
 import json
-from main import Gameglobal
+from main import gameGlobal
 from common.ColorLogger import getUZWLogger
 
 class MainGameHandler(tornado.web.RequestHandler):
@@ -27,5 +27,5 @@ class MainGameHandler(tornado.web.RequestHandler):
 
 
     def process(self):
-        return json.dumps(Gameglobal.process(self))
+        return json.dumps(gameGlobal.process(self))
 
